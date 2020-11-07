@@ -10,7 +10,7 @@ public class FiguresFxApp extends Application {
 
     @Override
     public void start(Stage window) throws Exception {
-        window.setTitle("FXFigures");
+        window.setTitle("Paint на минималках");
         Parent root = FXMLLoader.load(getClass().getResource("/views/mainScreenView.fxml"));
         window.setScene(new Scene(root, 1024, 600));
         window.setResizable(false);
@@ -20,5 +20,4 @@ public class FiguresFxApp extends Application {
     public static void main(String[] args) {
         launch();
     }
-
 }

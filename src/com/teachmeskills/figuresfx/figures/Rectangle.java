@@ -16,8 +16,8 @@ public class Rectangle extends Figure {
 
     public Rectangle(double cx, double cy, double lineWidth, Color color, double width, double height) {
         this(cx, cy, lineWidth, color);
-        this.width = width < 10 ? 10 : width; //созд. прямоуг. шириной не менее 10
-        this.height = height < 10 ? 10 : height;//созд. прямоуг. высотой не менее 10
+        this.width = width < 10 ? 10 : width;
+        this.height = height < 10 ? 10 : height;
     }
 
     public double getWidth() {

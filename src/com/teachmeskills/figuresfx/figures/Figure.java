@@ -7,6 +7,8 @@ public abstract class Figure {
     public static final int FIGURE_TYPE_CIRCLE = 0;
     public static final int FIGURE_TYPE_RECTANGLE = 1;
     public static final int FIGURE_TYPE_TRIANGLE = 2;
+    public static final int FIGURE_TYPE_ELLIPSE = 3;
+    public static final int FIGURE_TYPE_STAR = 4;
 
     private int type;
 
